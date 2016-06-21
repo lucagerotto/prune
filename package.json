@@ -10,19 +10,26 @@
   },
   "devDependencies": {
     "grunt": "latest",
-    "grunt-contrib-concat":     "latest",
-    "grunt-contrib-copy":       "latest",
-    "grunt-contrib-jshint":     "latest",
-    "grunt-contrib-uglify":     "latest",
-    "grunt-contrib-watch":      "latest",
-    "grunt-exec":               "latest",
-    "grunt-karma":              "latest",
-    "karma":                    "latest",
-    "karma-jasmine":            "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-exec": "latest",
+    "grunt-karma": "latest",
+    "karma": "latest",
+    "karma-jasmine": "latest",
     "karma-phantomjs-launcher": "latest"
   },
   "scripts": {
     "postinstall": "bower install",
     "test": "karma start karma.conf.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-aria": "^1.5.7",
+    "angular-material": "^1.1.0-rc.5",
+    "karma-cli": "^1.0.0"
   }
 }
