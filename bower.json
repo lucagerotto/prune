@@ -1,0 +1,13 @@
+{
+    "name": "prune",
+    "version": "0.0.0",
+    "dependencies": {
+        "angular":          "latest",
+        "angular-route":    "latest",
+        "angular-sanitize": "latest",
+        "angular-mocks":    "latest",
+        "jquery":           "latest",        
+        "restangular":      "latest"
+    },
+    "analytics": false
+}

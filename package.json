@@ -1,0 +1,27 @@
+{
+  "name": "PRUNE",
+  "namelower": "prune",
+  "version": "0.0.1",
+  "description": "Pianificazione Risorse UmaNE",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucagerotto/prune.git"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-concat":     "latest",
+    "grunt-contrib-copy":       "latest",
+    "grunt-contrib-jshint":     "latest",
+    "grunt-contrib-uglify":     "latest",
+    "grunt-contrib-watch":      "latest",
+    "grunt-exec":               "latest",
+    "grunt-karma":              "latest",
+    "karma":                    "latest",
+    "karma-jasmine":            "latest",
+    "karma-phantomjs-launcher": "latest"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
