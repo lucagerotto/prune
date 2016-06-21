@@ -6,7 +6,8 @@
         "angular-route":    "latest",
         "angular-sanitize": "latest",
         "angular-mocks":    "latest",
-        "jquery":           "latest",        
+        "angular-pouchdb":  "latest",
+        "jquery":           "latest",
         "restangular":      "latest"
     },
     "analytics": false

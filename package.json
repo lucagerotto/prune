@@ -22,6 +22,7 @@
     "karma-phantomjs-launcher": "latest"
   },
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "test": "karma start karma.conf.js"
   }
 }
