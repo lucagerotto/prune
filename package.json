@@ -22,10 +22,10 @@
     "karma-phantomjs-launcher": "latest"
   },
   "scripts": {
-    "postinstall": "bower install",
-    "test": "karma start karma.conf.js"
+    "postinstall": "bower install",    
   },
   "dependencies": {
+	"jquery":           "latest",
     "angular": "^1.5.7",
     "angular-animate": "^1.5.7",
     "angular-aria": "^1.5.7",

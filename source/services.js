@@ -1,21 +1,19 @@
-/**
- * Restangular-based data service, fetches user data from the backend
- *
- * @see https://github.com/mgonto/restangular
- */
-var services = angular.module('ExampleApp.services', [])
-    .factory('UserdataService', ['Restangular', '$q', function UserdataService(Restangular, $q) {
-        return {
-            /**
-             * @function getFirstUsername
-             * @returns a Promise that eventually resolves to the username of the first user
-             */
-            getFirstUsername: function() {
-                var firstUsernameDeferred = $q.defer();
-                var response = Restangular.one('users').getList().then(function(response) {
-                    firstUsernameDeferred.resolve(response[0].name);
-                });
-                return firstUsernameDeferred.promise;
-            }
-        };
-    }]);
+(function(){
+  "use strict";
+
+//angular.module('PruneApp.services')
+angular.module('PruneApp.services',[])
+.service('persistenceService', ["pouchDB", function(pouchDB) {
+  var db = pouchDB('http://127.0.0.1:5984/kittens');
+
+  return  {
+    get : function(){ return db.get('mittens');}
+  };
+}]);
+//.factory('UserdataService', ['Restangular', '$q', UserdataService]);
+
+
+
+
+
+  })();
