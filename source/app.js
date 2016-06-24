@@ -17,9 +17,9 @@ angular.module('PruneApp',
         'PruneApp.controllers'
     ]
 );
-angular.module('PruneApp').run(["persistenceService",function(persistanceService) {
+angular.module('PruneApp').run(["persistenceService",function(persistenceService) {
 
-  persistanceService.get().then(function (doc) {
+  persistenceService.get().then(function (doc) {
     console.log(doc);
   });
 

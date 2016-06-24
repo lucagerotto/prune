@@ -18,18 +18,21 @@
     "grunt-exec": "latest",
     "grunt-karma": "latest",
     "karma": "latest",
+    "karma-chrome-launcher": "^1.0.1",
     "karma-jasmine": "latest",
-    "karma-phantomjs-launcher": "latest"
+    "karma-phantomjs-launcher": "latest",
+    "pouchdb": "^5.4.4"
   },
   "scripts": {
-    "postinstall": "bower install",    
+    "postinstall": "bower install"
   },
   "dependencies": {
-	"jquery":           "latest",
     "angular": "^1.5.7",
     "angular-animate": "^1.5.7",
     "angular-aria": "^1.5.7",
     "angular-material": "^1.1.0-rc.5",
-    "karma-cli": "^1.0.0"
+    "jquery": "latest",
+    "karma-cli": "^1.0.0",
+    "pouchdb": "^5.4.4"
   }
 }

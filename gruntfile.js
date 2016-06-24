@@ -15,7 +15,9 @@ module.exports = function (grunt) {
         'bower_components/angular-route/angular-route.js',
         'bower_components/angular-sanitize/angular-sanitize.js',
         'bower_components/angular-mocks/angular-mocks.js',
-        'bower_components/restangular/dist/restangular.js',        
+        'bower_components/restangular/dist/restangular.js',
+        'bower_components/pouchdb/dist/pouchdb.js',
+        'bower_components/angular-pouchdb/angular-pouchdb.js',
         'test/**/*Spec.js'
       ]
     },
