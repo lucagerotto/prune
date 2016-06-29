@@ -8,20 +8,19 @@
     "type": "git",
     "url": "https://github.com/lucagerotto/prune.git"
   },
-  "devDependencies": {
-    "grunt": "latest",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-copy": "latest",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-exec": "latest",
-    "grunt-karma": "latest",
+  "devDependencies": {    
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",    
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jshint": "^2.9.2",
     "karma": "latest",
     "karma-chrome-launcher": "^1.0.1",
     "karma-jasmine": "latest",
     "karma-phantomjs-launcher": "latest",
-    "pouchdb": "^5.4.4"
+    "ng-annotate": "^1.2.1"    
   },
   "scripts": {
     "postinstall": "bower install"
